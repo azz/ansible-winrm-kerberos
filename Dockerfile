@@ -8,4 +8,4 @@ RUN apt-get -y install ansible python-dev libkrb5-dev krb5-user wget gcc
 RUN apt-get -y install vim
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python get-pip.py
-RUN pip install pywinrm kerberos requests_kerberos
+RUN pip install pywinrm kerberos requests_kerberos botocore boto3
